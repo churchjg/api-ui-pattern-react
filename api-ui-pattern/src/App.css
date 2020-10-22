@@ -10,6 +10,21 @@
   align-items: center;
 }
 
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
+  background-color: rgb(202, 0, 0);
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  border-bottom: 5px solid black;
+  margin-bottom: 100px;
+}
+
 .image {
   width: 80%;
   height: 300px;
@@ -56,12 +71,29 @@
   align-items: center;
 }
 
+.button {
+  width: 80%;
+  height: 40px;
+  cursor: pointer;
+  z-index: 5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
 
 .recipe {
   height: 300px;
   padding: 5%;
   overflow-y: scroll;
   margin-bottom: 5%;
+}
+
+#right {
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTz0gYbLWpbdY44xg02B5JiNqgVhJDfXjYwuQ&usqp=CAU');
+}
+
+#left {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqNPB4rxTJj_djdmoih3QSu4_Ta259duaDXg&usqp=CAU')
 }
 
 .count {
